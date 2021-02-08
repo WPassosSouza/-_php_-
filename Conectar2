@@ -1,0 +1,13 @@
+<?php
+
+	namespace ConectarNoSite;
+	function conectar(){
+		
+		echo "Conectou no Site!";
+		
+	}
+
+
+
+
+

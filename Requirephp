@@ -1,0 +1,24 @@
+<?php
+
+require "GetSet_emPHP"; //palavra reservada para puxar minha classe de outra arquivo, muito utilizado para projetos grandes
+						//assim posso usar objetos de outras classes por exemplo Get e Set e o construtor
+ 
+	//require_once
+	//@require evita erro fatal na pagina
+	
+require "ClassePogramador"	
+	
+	$programador=new Programador("Willian");
+	$uma_pessoa=new Pessoa("Willian");
+	
+	echo $uma_pessoa->getNome();
+	
+	//Pegando uma constante da Classe Pessoa-Humana
+	
+	echo $Programador::ESPECIE;
+	echo "O Objeto".__CLASS__."foi Instaciado"; //constantes magicas
+	
+
+
+
+

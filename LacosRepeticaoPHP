@@ -1,0 +1,27 @@
+<?php echo 'Lacos de repeticao'
+
+
+#While
+print("While");
+$i=0;
+while($i<10){
+	echo $i;
+	$i++;
+}
+
+
+#DO-while
+
+print("DO-while");
+$j=0;
+
+do{
+	echo $i;
+	$i++;
+	
+}(while $i<10)
+
+#for
+
+	
+	

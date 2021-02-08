@@ -1,0 +1,26 @@
+<?php
+
+class Pessoa{
+
+	protected $nome;
+
+
+	public function __construct($outroNome){ //
+	
+		$this->nome= $outroNome;
+	
+	}
+
+	// utilizando para pegar minha variavel nome
+	public function setNome($novoNome){
+		$this->nome=novoNome;
+		
+	}
+
+	public function getNome(){
+	
+		return $this->novoNome;
+	}
+
+
+}

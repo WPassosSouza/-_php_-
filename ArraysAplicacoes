@@ -1,0 +1,21 @@
+<?php echo 'Arrays - aplicacoes'
+
+$variavel = array(1,2,3,4,5,6,7,7,8,9,10);
+
+echo $variavel; # vai dar erro pois nao pode ser convertido e string
+
+print_r($variavel); #ira mostrar os indices tbm... 
+
+
+foreach($variavel as $v){ #aplicação para printar elemento por elemento
+	echo $v;
+	
+}
+
+$variavel2 = array("A"=>"1", "B"=>"2")
+
+print ""
+
+
+
+

@@ -1,0 +1,12 @@
+<?php
+	namespace ConectarNoBanco;
+	
+	function conectar(){
+		
+		echo "Conectou no Banco!";
+	
+	}
+
+
+
+

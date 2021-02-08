@@ -1,0 +1,32 @@
+ <?php echo 'teste de VARIAVEIS'; 
+ 
+ $a=2;
+ $b=3;
+ $soma= $a+$b;
+ print $soma;
+ 
+ while($soma){
+	 
+if($soma % 2)
+	 echo 'Par'
+ else
+	 echo 'impar'
+	if($soma % -1 )
+		echo 'negativo'
+	else
+		echo 'sair'
+	
+	end
+ }
+ 
+ 
+	$i=0;
+ while($i<10){
+	
+		print($i++);
+		
+	 
+	 
+ }
+ 
+ 

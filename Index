@@ -1,0 +1,8 @@
+<?php
+
+include "Connect.php";
+include "Connect2.php"
+
+	ConectarNoBanco\conectar();
+	ConectarNoSite\conectar();
+

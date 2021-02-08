@@ -1,0 +1,3 @@
+<?php $mng = "Hello Word!";
+
+echo $mng;
